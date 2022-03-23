@@ -2,6 +2,8 @@
 
 Boillerplate repository used to generate a Flutter project with a base folder structure and some packages.
 
+After cloning it you should run the command `flutter create .` inside the folder to generate the different build folders.
+
 ## Dependencies
 
 * [go_router](https://pub.dev/packages/go_router)
