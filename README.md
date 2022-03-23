@@ -1,5 +1,7 @@
 # fd_template
 
+[![Test workflow](https://github.com/Floating-Dartists/fd_template/actions/workflows/tests.yml/badge.svg)](https://github.com/Floating-Dartists/fd_template/actions/workflows/tests.yml)
+
 Boillerplate repository used to generate a Flutter project with a base folder structure and some packages.
 
 After cloning it you should run the command `flutter create .` inside the folder to generate the different build folders.
