@@ -4,12 +4,12 @@ Boillerplate repository used to generate a Flutter project with a base folder st
 
 ## Dependencies
 
-* go_router
+* [go_router](https://pub.dev/packages/go_router)
 
 ## Dev Dependencies
 
-* alchemist
-* build_runner
-* flutter_lints
-* mockito
-* remove_from_coverage
+* [alchemist](https://pub.dev/packages/alchemist)
+* [build_runner](https://pub.dev/packages/build_runner)
+* [flutter_lints](https://pub.dev/packages/flutter_lints)
+* [mockito](https://pub.dev/packages/mockito)
+* [remove_from_coverage](https://pub.dev/packages/remove_from_coverage)
