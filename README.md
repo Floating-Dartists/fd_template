@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/Gd0Mh6y.png" height="300">
+</p>
+
 # fd_template
 
 [![Test workflow](https://github.com/Floating-Dartists/fd_template/actions/workflows/tests.yml/badge.svg)](https://github.com/Floating-Dartists/fd_template/actions/workflows/tests.yml)
