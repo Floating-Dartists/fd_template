@@ -12,6 +12,7 @@ After cloning it you should run the command `flutter create .` inside the folder
 
 ## Dependencies
 
+* [equatable](https://pub.dev/packages/equatable)
 * [go_router](https://pub.dev/packages/go_router)
 
 ## Dev Dependencies
