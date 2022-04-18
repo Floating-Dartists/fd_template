@@ -1,10 +1,13 @@
+# Floating Dartists Template
+
 <p align="center">
-  <img src="https://i.imgur.com/Gd0Mh6y.png" height="300">
+  <a href="https://github.com/Floating-Dartists" target="_blank">
+    <img src="https://raw.githubusercontent.com/Floating-Dartists/fd_template/main/assets/Transparent-light.png" alt="Floating Dartists" width="600">
+  </a>
 </p>
 
-# fd_template
-
 [![Test workflow](https://github.com/Floating-Dartists/fd_template/actions/workflows/tests.yml/badge.svg)](https://github.com/Floating-Dartists/fd_template/actions/workflows/tests.yml)
+[![GitHub license](https://img.shields.io/github/license/Floating-Dartists/fd_template)](https://github.com/Floating-Dartists/fd_template/blob/main/LICENSE)
 
 Boillerplate repository used to generate a Flutter project with a base folder structure and some packages.
 
