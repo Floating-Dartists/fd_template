@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../controllers/themes/theme_controller.dart';
@@ -14,12 +15,12 @@ class ThemeSwitcher extends ConsumerWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        const Icon(Icons.sunny),
+        Text(AppLocalizations.of(context)!.lightMode),
         Switch(
           value: isDark,
           onChanged: (_) => controller.switchThemeMode(brightness),
         ),
-        const Icon(Icons.brightness_3),
+        Text(AppLocalizations.of(context)!.darkMode),
       ],
     );
   }
