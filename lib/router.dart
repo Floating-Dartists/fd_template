@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:go_router/go_router.dart';
 
-import 'presentation/home_page/home_page.dart';
+import 'presentation/views/home_page/home_page.dart';
 
 GoRouter routerGenerator({String? initialLocation}) {
   return GoRouter(
