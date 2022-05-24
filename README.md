@@ -18,7 +18,7 @@ After cloning it you should run the command `flutter create .` inside the folder
 This template is using [Riverpod](https://riverpod.dev/) as its state management. It already has some implementations to manage the following features:
 
 * Dynamic localization
-* Dynamic themes (WIP)
+* Dynamic themes
 
 ## Dependencies
 

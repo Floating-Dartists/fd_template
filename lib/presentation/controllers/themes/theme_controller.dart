@@ -39,6 +39,26 @@ class ThemeController extends StateNotifier<ThemeState> {
     await _saveToStorage(state);
   }
 
+  Future<void> switchThemeMode(Brightness systemBrightness) async {
+    final ThemeMode newMode;
+    switch (state.themeMode) {
+      case ThemeMode.system:
+        if (systemBrightness == Brightness.dark) {
+          newMode = ThemeMode.light;
+        } else {
+          newMode = ThemeMode.dark;
+        }
+        break;
+      case ThemeMode.light:
+        newMode = ThemeMode.dark;
+        break;
+      case ThemeMode.dark:
+        newMode = ThemeMode.light;
+        break;
+    }
+    await setThemeMode(newMode);
+  }
+
   /// Currently this method doesn't do anything, you might want to add some
   /// logic to handle the locale change.
   Future<void> _saveToStorage(ThemeState themeState) async {
